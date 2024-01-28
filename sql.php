@@ -3,9 +3,9 @@ ini_set('display_errors', 1);
 ini_set('error_reporting', E_ALL);
 
 $server = "localhost"; // Replace with your database server
-$username = "claimbo1_booster"; // Replace with your database username
-$password = "claimbo1_booster"; // Replace with your database password
-$database = "claimbo1_booster"; // Replace with your database name
+$username = "claimbo1_wallet"; // Replace with your database username
+$password = "claimbo1_wallet"; // Replace with your database password
+$database = "claimbo1_wallet"; // Replace with your database name
 
 // Create a connection to the database
 $conn = mysqli_connect($server, $username, $password, $database);
